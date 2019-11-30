@@ -16,6 +16,7 @@
 		002A829D23922BD9006E0D4B /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002A829C23922BD9006E0D4B /* ExpenseItem.swift */; };
 		002A829F23922C62006E0D4B /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002A829E23922C62006E0D4B /* Expenses.swift */; };
 		002A82A2239233E5006E0D4B /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002A82A1239233E5006E0D4B /* AddView.swift */; };
+		002A82A4239261CF006E0D4B /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002A82A3239261CF006E0D4B /* ListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		002A829C23922BD9006E0D4B /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
 		002A829E23922C62006E0D4B /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
 		002A82A1239233E5006E0D4B /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		002A82A3239261CF006E0D4B /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				002A829B239221C5006E0D4B /* App Delegates */,
 				002A82A023922D4B006E0D4B /* Data */,
 				002A828B239221A3006E0D4B /* ContentView.swift */,
+				002A82A3239261CF006E0D4B /* ListView.swift */,
 				002A82A1239233E5006E0D4B /* AddView.swift */,
 				002A828D239221A4006E0D4B /* Assets.xcassets */,
 				002A8292239221A4006E0D4B /* LaunchScreen.storyboard */,
@@ -174,6 +177,7 @@
 				002A829F23922C62006E0D4B /* Expenses.swift in Sources */,
 				002A8288239221A3006E0D4B /* AppDelegate.swift in Sources */,
 				002A82A2239233E5006E0D4B /* AddView.swift in Sources */,
+				002A82A4239261CF006E0D4B /* ListView.swift in Sources */,
 				002A828A239221A3006E0D4B /* SceneDelegate.swift in Sources */,
 				002A828C239221A3006E0D4B /* ContentView.swift in Sources */,
 				002A829D23922BD9006E0D4B /* ExpenseItem.swift in Sources */,
