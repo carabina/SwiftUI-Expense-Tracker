@@ -8,16 +8,33 @@ struct ContentView: View {
         NavigationView {
             List {
                 ForEach(expenses.items) { item in
-                    Text(item.name)
+                    HStack {
+                        VStack(alignment: .leading) {
+                            Text(item.name)
+                                .font(.headline)
+                            Text(item.type)
+                        }
+                        
+                        Spacer()
+                        if item.amount > 100 {
+                            Text("$\(item.amount)")
+                                .font(.title)
+                                .foregroundColor(.red)
+                        } else {
+                            Text("$\(item.amount)")
+                                .font(.title)
+                        }
+                    }
                 }
                 .onDelete(perform: removeItems)
             }
             .navigationBarTitle("Expense Tracker")
-            .navigationBarItems(trailing: Button(action: {
+            .navigationBarItems(leading: EditButton(), trailing: Button(action: {
                 self.showingAddExpense = true
             }) {
                 Image(systemName: "plus")
             })
+            
             .sheet(isPresented: $showingAddExpense) {
                 AddView(expenses: self.expenses)
             }
